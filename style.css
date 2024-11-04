@@ -1,0 +1,29 @@
+html{
+    color: white ;
+}
+.container{
+    color: white ;
+    background: url(photos/beach.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+ul li{
+   margin-left: 10px;
+   list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(132, 204, 16);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
